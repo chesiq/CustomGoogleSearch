@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.antonk.googlecustomsearch.ui.fragments.FavoritesFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_favorites"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_search"
+        android:text="@string/label_no_items"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:visibility="gone"/>
+
+    <ProgressBar
+        android:id="@+id/progress_favorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</FrameLayout>

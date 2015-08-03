@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.antonk.googlecustomsearch.ui.fragments.SearchFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_search_results"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_no_items"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:visibility="gone"/>
+
+    <ProgressBar
+        android:id="@+id/progress_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

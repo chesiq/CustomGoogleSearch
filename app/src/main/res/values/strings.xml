@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GoogleCustomSearch</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_save">Save</string>
+    
+    <string name="prompt_search">Search</string>
+    <string name="label_no_items">No items</string>
+    <string name="text_data_saved">Data has been saved</string>
+
+</resources>
